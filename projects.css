@@ -1,0 +1,27 @@
+h1 { 
+    color: #667eea;
+    font-size: 60px;
+    padding: 20px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    text-align: center;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.project-gallery img {
+    width: 400px;     
+    height: 400px;     
+    object-fit: cover;   
+    border-radius: 8px;  
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+}
